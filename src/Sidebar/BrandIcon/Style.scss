@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+@import '~bootstrap/scss/bootstrap';
+@import '../../../../blue-admin-vue-components/src/Sidebar/BrandIcon/Style.scss';
+
+.sidebar-brand {
+    color: $primary-color;
+
+    &:hover {
+        color: $secondary-color;
+
+        i, svg {
+            color: $secondary-color;
+        }
+    }
+}

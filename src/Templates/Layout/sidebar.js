@@ -2,7 +2,7 @@ export default {
     "type": "financialintelligence-admin-sidebar",
     "data": {
         "brand_section": {
-            "type": "blue-admin-sidebar-brand-icon",
+            "type": "financialintelligence-admin-sidebar-brand-icon",
             "data": {
                 "url": "/",
                 "icon_class": "fas fa-laugh-wink",

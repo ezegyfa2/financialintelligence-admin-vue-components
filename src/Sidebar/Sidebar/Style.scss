@@ -8,20 +8,14 @@
 
 .nav-item {
     border-top: 1px solid $third-color;
-    padding-top: 5px;
+    padding-top: 4px;
     padding-bottom: 5px;
     color: $primary-color;
     transition: border-top 0.5s ease, padding-top 0.5s ease;
     &:hover {
         border-top: 5px solid $secondary-color;
         padding-top: 0;
-    }
-}
-
-.sidebar-brand, .sidebar-brand-icon, .sidebar-brand-text {
-    color: $primary-color;
-    &:hover {
-        color: $secondary-color;
+        color: $primary-color;
     }
 }
 
@@ -30,7 +24,7 @@
     &.toggled {
         #sidebarToggle {
             &::after {
-                color: $primary-color;
+                color: $light-color;
                 opacity: 1;
             }
         }
@@ -47,7 +41,8 @@
     }
 
     &:hover {
-        background-color: $primary-color-lighter;
+        background-color: $primary-color-light;
+        color: $light-color;
         opacity: 1;
     }
 

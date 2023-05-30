@@ -41,6 +41,13 @@ export default {
 		);
 
 		registerVueComponent(
+			'financialintelligence-admin-sidebar-brand-icon',
+			require('./Sidebar/BrandIcon/Component.vue').default, 
+			Vue,
+			'financialintelligence-admin-vue-components/src/Sidebar/BrandIcon/Component.vue'
+		);
+
+		registerVueComponent(
 			'financialintelligence-admin-table',
 			require('./Table/Table/Component.vue').default,
 			Vue,

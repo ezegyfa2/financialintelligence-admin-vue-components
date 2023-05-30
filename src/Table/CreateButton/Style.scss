@@ -5,5 +5,7 @@
     background-color: $primary-color;
     &:hover {
         color: $light-color;
+        background-color: $primary-color-light;
+        opacity: 1;
     }
 }

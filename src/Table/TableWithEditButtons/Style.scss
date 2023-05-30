@@ -16,3 +16,11 @@ table > thead > tr > th:first-child {
 .active {
     color: $primary-color;
 }
+
+.btn-delete {
+    background-color: $secondary-color;
+
+    &:hover {
+        background-color: $secondary-color-lighter;
+    }
+}
