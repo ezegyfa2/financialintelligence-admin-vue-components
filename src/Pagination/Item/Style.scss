@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+
+.page-link {
+    padding: 1rem;
+    font-family: $primary-font-family;
+    color: $primary-color;
+    background-color: $primary-bg-color;
+    &:hover {
+        color: $light-color;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}
+
+li.active {
+    .page-link {
+        color: $light-color;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}

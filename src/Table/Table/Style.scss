@@ -1,0 +1,32 @@
+@import '../../styles/variables';
+@import '../../../../blue-admin-vue-components/src/Table/Table/Style.scss';
+@import '../../../../blue-admin-vue-components/src/Table/CreateButton/Style.scss';
+
+table {
+    color: $primary-color;
+}
+
+.card-header-bg {
+    background-color: $primary-bg-color;
+}
+
+.card-header {
+    color: $primary-color;
+}
+
+.card-body-header {
+    background-color: $secondary-color;
+    border-bottom: 0.1rem solid $secondary-color;
+}
+
+label p {
+    color: $primary-color;
+}
+
+.active {
+    color: $primary-color;
+}
+
+.container-fluid {
+    margin-top: 3rem;
+}

@@ -1,0 +1,9 @@
+@import '../../../styles/variables';
+@import '../../../../../helper-vue-components/src/IconLinks/EditIconLink/Style.scss';
+
+.btn-edit {
+    background-color: $secondary-color;
+    &:hover {
+        background-color: $secondary-color-lighter;
+    }
+}

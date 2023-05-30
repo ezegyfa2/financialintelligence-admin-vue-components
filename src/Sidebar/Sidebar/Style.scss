@@ -1,0 +1,57 @@
+@import '../../styles/variables';
+@import '../../../../blue-admin-vue-components/src/Sidebar/Sidebar/Style.scss';
+
+.sidebar-bg-gradient {
+    background: $primary-bg-color;
+    font-family: $primary-font-family;
+}
+
+.nav-item {
+    border-top: 1px solid $third-color;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: $primary-color;
+    transition: border-top 0.5s ease, padding-top 0.5s ease;
+    &:hover {
+        border-top: 5px solid $secondary-color;
+        padding-top: 0;
+    }
+}
+
+.sidebar-brand, .sidebar-brand-icon, .sidebar-brand-text {
+    color: $primary-color;
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+.sidebar {
+    background-color: $primary-bg-color;
+    &.toggled {
+        #sidebarToggle {
+            &::after {
+                color: $primary-color;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#sidebarToggle {
+    background-color: $primary-color;
+    opacity: 1;
+
+    &::after {
+        color: $light-color;
+        opacity: 1;
+    }
+
+    &:hover {
+        background-color: $primary-color-lighter;
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

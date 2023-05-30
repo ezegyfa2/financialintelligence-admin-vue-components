@@ -1,0 +1,19 @@
+@import '../../styles/variables';
+
+.form-item.form-group {
+    margin-bottom: 1rem;
+}
+
+button.btn-form {
+    background-color: $primary-color;
+    color: $light-color;
+    &:hover {
+        background-color: $primary-color-lighter;
+    }
+}
+
+.form-item:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
